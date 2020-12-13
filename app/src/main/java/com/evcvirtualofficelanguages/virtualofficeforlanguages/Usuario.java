@@ -4,9 +4,19 @@ public class Usuario {
 
     private String nome;
     private String sobrenome;
+    private String email;
+
 
 
     public Usuario() {
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getNome() {
